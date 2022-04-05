@@ -1,0 +1,90 @@
+
+
+.pushable{
+
+}
+.hidden{
+ visibility: hidden; 
+}
+.ui.menu{
+border-radius: 0;
+}
+
+.row{
+	width: 100%;
+
+}
+.blog-item{
+	color: #000;
+	background-color: white;
+	height: 400px;
+	width: 300px;
+	padding: 10px;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.8) ;
+	transition: 0.5s;
+}
+
+.blog-item:hover{
+	transform: scale(1.05);
+
+}
+.blog-item-img{
+	padding: 10px;
+	width: 280px;
+	height: 210px;
+	background-size: contain!important;
+	align-content: center;
+	border-radius: 20px;
+}
+.blog-header{
+	color: #000;
+	height: 50px;
+	text-align: center;
+	font-size: 1.5em ;
+	text-shadow: none;
+}
+.blog-header:hover{ 
+
+}
+.blog-date{
+	position: absolute;
+	color: #000;
+	text-align: center;
+	font-size: 1.0em ;
+	text-shadow: none;
+	left: 40px;
+	bottom: 0px;
+}
+.ui.button{
+	position: absolute;
+ border-radius: 5px;
+ background-color: seagreen;
+ color: #fff;
+ bottom: 10px;
+ right: 20px;
+}
+.ui.button:hover{
+ background-color: limegreen;
+ color: #fff;
+}
+.blog-text{
+	height: 50px;
+	color: #fff;
+	font-size: 1.2em;
+	text-shadow: none;
+	overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.gp-par{
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  width: 100%!important;
+}
+.fadeup{
+	visibility: hidden;
+	transition: 0.5s;
+}

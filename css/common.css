@@ -1,0 +1,342 @@
+
+body {
+  min-height: 2000px;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.5s;
+  transition:all 2s;
+}
+
+.fadeup{
+  visibility: hidden;
+}
+.ui{
+font-family: 'Roboto', sans-serif;
+
+}
+.ui .stripe .quote .segment{
+height: 100vh;
+}
+.center.aligned.pusher{
+  background-color: #1b1c1d;
+}
+.offices {
+  color: #fff;
+}
+.flags a {
+  padding: .012em;
+  cursor: pointer;
+}
+/* Nav */
+.ui.fixed.borderless.menu {
+  background-color: rgba(8, 20, 42,1);
+  padding: auto;
+  margin: auto;
+  color: #fff;
+}
+.item{
+  cursor :pointer;
+}
+.ui .computer.only .item {
+  color: #fff;
+}
+
+.ui .computer.only .item:hover {
+ color: #0cb49b !important;
+  border-bottom: 1px solid #fff;
+}
+
+.ui .computer .item.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.ui.menu .ui.dropdown .menu > .item.active {
+  color: #00ba49 !important;
+  border-bottom: 1px solid #fff;
+}
+.ui.menu .ui.dropdown .menu > .item:hover {
+  color: #0cb49b !important;
+  border-bottom: 1px solid #fff;
+}
+
+.ui.fixed.borderless.menu .row > a.header.item {
+  font-size: 1.2em;
+}
+
+/* Mobile */
+.tablet.mobile.only .header, .ui.icon.button > .icon {
+  color: #fff;
+}
+
+.tablet.mobile.only .header:hover {
+  color: #0cb49b !important;
+  border-bottom: 1px solid #fff;
+}
+
+.ui.basic.button:hover {
+  color: #0cb49b !important;
+  border-bottom: 1px solid #fff;
+}
+
+.ui.vertical.menu {
+  display: none;
+  border: none;
+  box-shadow: none;
+  background-color: rgba(30, 30, 37,0.0);
+}
+.ui.vertical.menu > .item {
+  padding-left: 1.428em;
+  color: #fff;
+}
+
+.ui.vertical.menu > .item.active {
+  padding-left: 1.428em;
+  color: #00ba49 !important;
+  border-bottom: 1px solid #fff;
+}
+
+.ui.vertical.menu > .item:hover {
+  padding-left: 1.428em;
+  background-color: #0cb49b !important;
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+}
+.ui.vertical.menu .item .title {
+  color: #fff;
+}
+.ui.vertical.menu .item .title .dropdown.icon {
+  float: none;
+  color: #fff;
+}
+
+.ui.vertical.menu .item .content .item {
+  padding: 0.5em 1em;
+  color: #fff;
+}
+
+.ui.vertical.menu .item .content .item:hover {
+  padding: 0.5em 1em;
+  background-color: rgba(30, 30, 37,0.9) !important;
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+}
+
+.ui.vertical.menu .item .content .item.active {
+  padding: 0.5em 1em;
+  background-color: #00ba49 !important;
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+}
+
+.ui.vertical.menu .header.item {
+  text-transform: uppercase;
+  color: #fff;
+}
+/* Nav */
+
+.ui.message {
+  box-shadow: none;
+  padding: 5em 4em;
+}
+.ui.message h1.ui.header {
+  font-size: 5em;
+  color: rgba(30, 30, 37,0.9);
+}
+.ui.message p.lead {
+  font-size: 1.3em;
+  color: #333333;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+
+@media (min-height: 100px) {
+  .ui.footer.form-page { /* Increased specificity for SO snippet priority */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height:200px ;
+  }
+}
+
+
+
+/*      masthead                        */
+
+
+    .hidden.menu {
+      display: none;
+    }
+    .masthead.segment {
+      min-height:1000px; 
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+    .masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 5em;
+      font-weight: normal;
+    }
+    .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+    }
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    } 
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+    .ui.segment{
+      padding: 0;
+      margin-top: 5em;
+    }
+    .ui.quote.stripe.segment {
+      min-height: 100vh;
+      margin: auto;
+      padding-top: 10em;
+      background-size:  cover !important;
+    }
+    .quote.stripe.segment .grid .column {
+      margin: auto;
+      min-height: 100vh;
+      background-color: rgba(0, 0, 0, 0.0);
+    }
+    .ui.row {
+      padding: 1.0em;
+      margin: auto;
+
+    }
+    .ui.grid>.row{
+      padding: 2rem;
+
+
+    }
+    .ui.footer.segment {
+      padding: 20px;
+    }
+
+    .secondary.pointing.menu .toc.item {
+      display: none;
+    }
+
+    @media only screen and (max-width: 100%) {
+      .ui.fixed.menu {
+        display: none !important;
+      }
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
+        display: none;
+      }
+      .secondary.pointing.menu .toc.item {
+        display: block;
+      }
+      .masthead.segment {
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 2em;
+  background-color: rgba(0, 0, 0, 0);
+      }
+    }
+
+    .button{
+
+      border-bottom-left-radius: 2px;
+    }
+
+    .huge{
+      font-size: 5em;
+    }
+    .about-c{
+      margin: auto;
+      padding: 10px;
+      padding-top: 7em;
+    }
+    .about-label{
+      background-color: rgba(0, 0, 0, 0.0);
+      border: 2px solid #0caa92;
+      border-radius: 5px;
+      padding: 5px;
+      color: white;
+    }
+    .about-label:hover{
+      background-color: #0caa92;
+      transition: 0.4s;
+      transform: scale(1.2);
+    }
+ 
+    .deco{
+      margin-top: 10em;
+      border: 15px solid #100e17 ;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
+    }
+
+    .ui.grid{
+      background-color: rgba(16, 14, 18, 0);
+
+      text-shadow: 2px 2px 4px black;
+    }
+    .ui.circular.button{
+      color: balck;
+      font: bold;
+      background-color: #61c2d6;
+      border-bottom-left-radius: 0px;
+      font-size: 1.5em;
+
+    }
+    .ui.huge.header{
+      color: white;
+      font-size: 5em;
+
+
+    }
+    .ui.large.header{
+      color: white;
+      font-size: 3em;
+
+    }
+
+    .ui.list{
+      font-size: 1.5em;
+    }
+
+.ui.container{
+}
+.fadein{
+  visibility: hidden ; 
+}
+
+
+.gp-loader{
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: block!important;
+  visibility: visible;
+  overflow: hidden;
+}
